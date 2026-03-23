@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coursepy"
+version = "0.1.0"
+description = "Course helper utilities"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Umut Özge" }
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "scipy",
+  "scikit-learn",
+  "jupyterlab",
+  "nltk"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

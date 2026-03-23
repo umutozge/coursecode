@@ -1,3 +1,8 @@
+docs/repo_template_files.md
+README.html
+tmp/
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
